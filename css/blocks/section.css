@@ -1,0 +1,31 @@
+.section-title {
+    color: #FFD479;
+    font-family: 'Bebad Neue' sans-serif;
+    font-weight: 700;
+    font-size: 66px;
+}
+.section-desk {
+    font-size: 16px;
+    line-height: 200%;
+
+}
+.section {
+    padding: 150px 0;
+}
+.section-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.section-trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px
+}
+
+.section-group-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 105px 32px
+}

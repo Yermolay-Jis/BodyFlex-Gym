@@ -1,0 +1,40 @@
+.header {
+    height: 500px;
+
+    padding-top: 30px;
+
+    background-image: url(./../../img/hero/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (min-resolution: 192dpi) {
+    .header {
+        background-image: url(./../../img/hero/wallpaperflare.com_wallpaper.jpg);
+
+    }
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 50px;
+    font-family: 'Bebas Neue' sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.header-list a {
+    transition: all 0,2s ease-in;
+}
+.header-list a:hover {
+    color: rgb(220, 220, 220);
+}
+
+.header-img {
+    padding-top: 25px;
+    text-align: right;
+}

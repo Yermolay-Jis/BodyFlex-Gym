@@ -1,0 +1,59 @@
+.section-beast {
+    position: relative;
+    color: white;
+    height: 750px;
+    background-image: image-set(
+        url(../../img/beast-mode/1667240274_8-colodu-club-p-kachok-v-zale-krasivo-9.jpg) 1x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.section-beast::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+
+    content: '';
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -1px;
+
+}
+
+.section-beast::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 68px;
+
+    content: '';
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left bottom;
+}
+
+.section-beast-title {
+    margin-bottom: 10px;
+    font-size: 75px;
+    font-weight: 700px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 7.5px;
+
+
+}
+.section-beast-desk {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 150%;
+    text-wrap: balance;
+}

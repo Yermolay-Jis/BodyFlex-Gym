@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    border-radius: 7px;
+    width: 214px;
+    height: 52px;
+    background: #ffd479;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.26em;
+    color: #000;
+    padding-top: 15px ;
+    margin-top: 20px ;
+    padding: 18px, 15px 0;
+    transition: all 0.3s ease-in;
+    line-height: 1;
+    padding: 18px 15px 15px;
+}
+
+.button:hover, .button:active {
+    background: #fac045;
+}

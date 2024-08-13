@@ -1,0 +1,21 @@
+.container {
+    margin:  0 auto;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1170px;
+}
+body {
+    background-color: #1F2A32;
+    color: #FAFAF5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+a {
+    color: #FAFAF5;
+    font-family: 'Roboto', sans-serif;
+}
+input, textarea {
+    color: white;
+    background: none;
+}

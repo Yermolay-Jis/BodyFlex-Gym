@@ -1,0 +1,41 @@
+.form {
+    color: white;
+    display: grid;
+    gap: 30px;
+    
+}
+
+.form-group {
+    display: grid;
+    gap: 5px;
+
+}
+
+.label-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inp-name {
+    font-size: 16px;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 9px;
+}
+
+.inp-mail {
+    font-size: 16px;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 9px;
+}
+
+.text-area {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    height: 170px;
+    resize: vertical;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 9px;
+}

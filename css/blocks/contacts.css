@@ -1,0 +1,27 @@
+.contacts {
+    -webkit-filter: brightness(60%);
+    display: flex;
+    align-items: center;
+    filter: brightness(60%);
+    height: 861px;
+    background-image: url(./../../img/contacts/Fitness_Men_Bodybuilding_Workout_Hands_Belly_586682_1280x853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts-content {
+    margin: 0 auto;
+    max-width: 585px;
+
+}
+
+.contacts-title {
+    font-family: 'Bebas Neue' sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 0.06em;
+    color: #ffd479;
+    margin-bottom: 40px;
+    
+}
